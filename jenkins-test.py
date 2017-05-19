@@ -31,6 +31,6 @@ result = server.get_job_info(job_name)
 server.build_job(job_name)
 
 # 获取job执行的结果
-result2 = server.get_build_info(job_name,26)
+build_info_result = server.get_build_info(job_name,26)
 
-logging.info(json.dumps(result2))
+logging.info(json.dumps(build_info_result))
